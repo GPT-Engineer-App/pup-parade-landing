@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { PawPrint, Heart, Info, Paw } from 'lucide-react';
+import { PawPrint, Heart, Info, Dog } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -18,7 +18,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-b from-blue-100 to-blue-200 p-8">
       <header className="text-center mb-12">
         <h1 className="text-4xl font-bold text-blue-800 mb-4 flex items-center justify-center">
-          <Paw className="mr-2 h-8 w-8" />
+          <Dog className="mr-2 h-8 w-8" />
           Welcome to Doggy Paradise
         </h1>
         <p className="text-xl text-blue-600">Discover the joy of canine companionship</p>

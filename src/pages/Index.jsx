@@ -85,6 +85,7 @@ const Index = () => {
         <p>&copy; 2024 Doggy Paradise. All rights reserved.</p>
       </footer>
     </div>
+  </div>
   );
 };
 

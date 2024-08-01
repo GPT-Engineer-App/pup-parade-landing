@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Paw, Heart, Info } from 'lucide-react';
+import { PawPrint, Heart, Info } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -26,7 +26,7 @@ const Index = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">Why Dogs Make Great Pets</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { icon: <Paw />, title: 'Loyal Companions', description: 'Dogs offer unwavering friendship and love.' },
+              { icon: <PawPrint />, title: 'Loyal Companions', description: 'Dogs offer unwavering friendship and love.' },
               { icon: <Heart />, title: 'Health Benefits', description: 'Owning a dog can reduce stress and increase physical activity.' },
               { icon: <Info />, title: 'Social Catalysts', description: 'Dogs help you meet new people and make friends.' },
             ].map((item, index) => (

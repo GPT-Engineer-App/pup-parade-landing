@@ -16,9 +16,9 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-100 to-blue-200">
+    <div className="flex flex-col min-h-screen bg-gradient-to-b from-blue-100 to-blue-200">
       <Navbar />
-      <div className="p-8">
+      <div className="flex-grow p-8">
         <header className="text-center mb-12">
           <h1 className="text-4xl font-bold text-blue-800 mb-4">
             Welcome to Doggy Paradise
@@ -80,8 +80,9 @@ const Index = () => {
           </Button>
         </section>
       </main>
+      </div>
 
-      <footer className="mt-12 bg-blue-800 text-white py-8">
+      <footer className="bg-blue-800 text-white py-8">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
